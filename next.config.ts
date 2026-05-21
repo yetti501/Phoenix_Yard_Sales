@@ -7,6 +7,15 @@ const nextConfig: NextConfig = {
       (process.env.NODE_ENV === 'production' ? 'production' : 'development'),
     NEXT_PUBLIC_MASTER_ADMIN_EMAIL: process.env.MASTER_ADMIN_EMAIL || '',
   },
+  async redirects() {
+    return [
+      {
+        source: "/support",
+        destination: "/help-support",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
