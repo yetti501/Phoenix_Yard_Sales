@@ -1,21 +1,27 @@
 'use client';
 
 import { useSearchParams } from 'next/navigation';
-import { useEffect, useState, Suspense, useCallback } from 'react';
+import { useState, Suspense, useCallback } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { account } from '@/lib/appwrite';
 
-type Status = 'verifying' | 'success' | 'error';
+type Status = 'ready' | 'verifying' | 'success' | 'error';
 
 function VerifyEmailContent() {
   const searchParams = useSearchParams();
   const userId = searchParams.get('userId') ?? '';
   const secret = searchParams.get('secret') ?? '';
-  const [status, setStatus] = useState<Status>('verifying');
-  const [errorMessage, setErrorMessage] = useState('');
+  const [status, setStatus] = useState<Status>(() =>
+    userId && secret ? 'ready' : 'error'
+  );
+  const [errorMessage, setErrorMessage] = useState(() =>
+    userId && secret ? '' : 'Invalid verification link. Please check your email and try again.'
+  );
 
   const verify = useCallback(async () => {
+    setStatus('verifying');
+
     if (!userId || !secret) {
       setErrorMessage('Invalid verification link. Please check your email and try again.');
       setStatus('error');
@@ -40,10 +46,6 @@ function VerifyEmailContent() {
     }
   }, [userId, secret]);
 
-  useEffect(() => {
-    verify();
-  }, [verify]);
-
   return (
     <div className="min-h-screen flex items-center justify-center bg-background px-4 py-12">
       <div className="w-full max-w-md">
@@ -62,6 +64,34 @@ function VerifyEmailContent() {
 
         {/* Card */}
         <div className="bg-white rounded-2xl shadow-xl shadow-gray-100/50 p-8 text-center">
+          {/* Ready State */}
+          {status === 'ready' && (
+            <>
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  className="w-8 h-8 text-primary"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                </svg>
+              </div>
+              <h1 className="text-xl font-bold text-navy mb-2">Confirm Your Email</h1>
+              <p className="text-gray-500 text-sm mb-6">
+                Tap the button below to verify your email address and activate your account.
+              </p>
+              <button
+                onClick={verify}
+                className="block w-full py-3 px-4 bg-primary hover:bg-primary-dark text-white font-semibold rounded-xl transition-all hover:shadow-lg hover:shadow-primary/25 text-center"
+              >
+                Verify My Email
+              </button>
+            </>
+          )}
+
           {/* Verifying State */}
           {status === 'verifying' && (
             <>
