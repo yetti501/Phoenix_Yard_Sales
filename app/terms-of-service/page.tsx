@@ -66,7 +66,7 @@ export default function TermsOfServicePage() {
               <li>The content does not violate any laws or these Terms</li>
             </ul>
             <p className="text-gray-600 leading-relaxed text-sm mt-3">
-              You grant Smashing Wallets a non-exclusive, royalty-free license to display your User Content within the App for the purpose of providing our service.
+              You grant Smashing Wallets LLC a non-exclusive, royalty-free license to display your User Content within the App for the purpose of providing our service.
             </p>
           </div>
 
@@ -111,7 +111,7 @@ export default function TermsOfServicePage() {
           <div>
             <h2 className="text-xl font-semibold text-navy mb-3">7. Limitation of Liability</h2>
             <p className="text-gray-600 leading-relaxed text-sm uppercase font-medium">
-              To the maximum extent permitted by law, Smashing Wallets shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the App or attendance at any event discovered through the App.
+              To the maximum extent permitted by law, Smashing Wallets LLC shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the App or attendance at any event discovered through the App.
             </p>
             <p className="text-gray-600 leading-relaxed text-sm mt-3">
               We are not responsible for disputes between users or any transactions that occur at events.
@@ -122,7 +122,7 @@ export default function TermsOfServicePage() {
           <div>
             <h2 className="text-xl font-semibold text-navy mb-3">8. Intellectual Property</h2>
             <p className="text-gray-600 leading-relaxed text-sm">
-              The App, including its design, features, and content (excluding User Content), is owned by Smashing Wallets and protected by copyright and other laws. You may not copy, modify, distribute, or reverse engineer any part of the App without our written permission.
+              The App, including its design, features, and content (excluding User Content), is owned by Smashing Wallets LLC and protected by copyright and other laws. You may not copy, modify, distribute, or reverse engineer any part of the App without our written permission.
             </p>
           </div>
 
