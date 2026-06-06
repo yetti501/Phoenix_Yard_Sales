@@ -1,5 +1,5 @@
 /**
- * Smashing Wallets Color Palette
+ * Phoenix Yard Sales Color Palette
  * Centralized color system for consistent theming across the web app
  */
 

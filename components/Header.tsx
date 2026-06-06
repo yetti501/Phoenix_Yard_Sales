@@ -15,13 +15,13 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-2 group">
             <Image
               src="/logo.png"
-              alt="Smashing Wallets"
+              alt="Phoenix Yard Sales"
               width={40}
               height={40}
               className="rounded-lg transition-transform group-hover:scale-105"
             />
             <span className="font-display font-bold text-xl text-navy hidden sm:block">
-              Smashing Wallets
+              Phoenix Yard Sales
             </span>
           </Link>
 

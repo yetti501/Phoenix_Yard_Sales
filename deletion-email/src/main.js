@@ -21,9 +21,9 @@ module.exports = async ({ req, res, log, error }) => {
 
   try {
     await transporter.sendMail({
-      from: `"Smashing Wallets" <${process.env.GMAIL_USER}>`,
+      from: `"Phoenix Yard Sales" <${process.env.GMAIL_USER}>`,
       to: email,
-      subject: 'Your Smashing Wallets account has been deleted',
+      subject: 'Your Phoenix Yard Sales account has been deleted',
       html: `
         <div style="font-family: system-ui, -apple-system, sans-serif; max-width: 520px; margin: 0 auto; padding: 40px 20px;">
           <div style="text-align: center; margin-bottom: 32px;">
@@ -33,7 +33,7 @@ module.exports = async ({ req, res, log, error }) => {
             Hey ${name},
           </p>
           <p style="color: #374151; font-size: 16px; line-height: 1.6;">
-            Your Smashing Wallets account and all associated data have been permanently deleted. This includes:
+            Your Phoenix Yard Sales account and all associated data have been permanently deleted. This includes:
           </p>
           <ul style="color: #374151; font-size: 16px; line-height: 1.8;">
             <li>Your profile information</li>
@@ -49,11 +49,11 @@ module.exports = async ({ req, res, log, error }) => {
           </p>
           <p style="color: #374151; font-size: 16px; line-height: 1.6;">
             Take care,<br/>
-            <strong>The Smashing Wallets Team</strong>
+            <strong>The Phoenix Yard Sales Team</strong>
           </p>
           <hr style="border: none; border-top: 1px solid #E5E7EB; margin: 32px 0;" />
           <p style="color: #9CA3AF; font-size: 12px; text-align: center;">
-            &copy; 2025&ndash;2026 Smashing Wallets. All rights reserved.
+            &copy; 2025&ndash;2026 Smashing Wallets LLC. All rights reserved.
           </p>
         </div>
       `,

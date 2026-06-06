@@ -15,8 +15,15 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Smashing Wallets - Find Events That Won't Break the Bank",
+  metadataBase: new URL("https://phoenixyardsales.com"),
+  title: "Phoenix Yard Sales - Find Events That Won't Break the Bank",
   description: "Discover affordable events and experiences in your area. Save money while having fun.",
+  openGraph: {
+    title: "Phoenix Yard Sales - Find Events That Won't Break the Bank",
+    description: "Discover affordable events and experiences in your area. Save money while having fun.",
+    url: "https://phoenixyardsales.com",
+    siteName: "Phoenix Yard Sales",
+  },
 };
 
 export default function RootLayout({

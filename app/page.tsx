@@ -18,7 +18,7 @@ export default function Home() {
             <div className="flex justify-center mb-8">
               <Image
                 src="/logo.png"
-                alt="Smashing Wallets"
+                alt="Phoenix Yard Sales"
                 width={120}
                 height={120}
                 className="drop-shadow-lg"
@@ -76,7 +76,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-navy mb-4">
-              Why Smashing Wallets?
+              Why Phoenix Yard Sales?
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               We make it easy to find events that fit your budget and interests.
@@ -151,11 +151,11 @@ export default function Home() {
             <div className="flex items-center gap-2">
               <Image
                 src="/logo.png"
-                alt="Smashing Wallets"
+                alt="Phoenix Yard Sales"
                 width={32}
                 height={32}
               />
-              <span className="font-semibold text-navy">Smashing Wallets</span>
+              <span className="font-semibold text-navy">Phoenix Yard Sales</span>
             </div>
             <div className="flex gap-6 text-sm text-gray-500">
               <Link href="/terms-of-service" className="hover:text-primary transition-colors">
@@ -168,9 +168,10 @@ export default function Home() {
                 Help & Support
               </Link>
             </div>
-            <p className="text-sm text-gray-400">
-              © {new Date().getFullYear()} Smashing Wallets
-            </p>
+            <div className="text-sm text-gray-400 text-center sm:text-right">
+              <p>© {new Date().getFullYear()} Smashing Wallets LLC. All rights reserved.</p>
+              <p className="mt-1">Phoenix Yard Sales is a product of Smashing Wallets LLC</p>
+            </div>
           </div>
         </div>
       </footer>

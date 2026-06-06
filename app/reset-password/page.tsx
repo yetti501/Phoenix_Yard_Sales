@@ -49,7 +49,7 @@ function ResetPasswordContent() {
           Reset Your Password
         </h1>
         <p style={{ color: "#6B7280", fontSize: "0.95rem", marginBottom: "1.5rem" }}>
-          Tap the button below to open Smashing Wallets and reset your password.
+          Tap the button below to open Phoenix Yard Sales and reset your password.
         </p>
         <a
           href={deepLink}
@@ -75,7 +75,7 @@ function ResetPasswordContent() {
             marginTop: "1.25rem",
           }}
         >
-          If the app doesn&apos;t open, make sure Smashing Wallets is installed on your device.
+          If the app doesn&apos;t open, make sure Phoenix Yard Sales is installed on your device.
         </p>
       </div>
     </div>

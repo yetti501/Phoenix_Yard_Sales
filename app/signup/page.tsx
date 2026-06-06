@@ -136,7 +136,7 @@ function SignupForm() {
           <Link href="/" className="inline-block">
             <Image
               src="/logo.png"
-              alt="Smashing Wallets"
+              alt="Phoenix Yard Sales"
               width={80}
               height={80}
               className="mx-auto mb-4"

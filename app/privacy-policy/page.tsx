@@ -9,7 +9,7 @@ export default function PrivacyPolicyPage() {
         <Link href="/">
           <Image
             src="/logo.png"
-            alt="Smashing Wallets Logo"
+            alt="Phoenix Yard Sales Logo"
             width={100}
             height={100}
             className="mx-auto mb-6"
@@ -25,7 +25,7 @@ export default function PrivacyPolicyPage() {
           <div>
             <h2 className="text-xl font-semibold text-navy mb-3">Introduction</h2>
             <p className="text-gray-600 leading-relaxed text-sm">
-              Welcome to Smashing Wallets! We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you use our mobile application. By using Smashing Wallets, you agree to the collection and use of information in accordance with this policy.
+              Welcome to Phoenix Yard Sales! We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you use our mobile application. By using Phoenix Yard Sales, you agree to the collection and use of information in accordance with this policy.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export default function PrivacyPolicyPage() {
             <h2 className="text-xl font-semibold text-navy mb-3">How We Use Your Information</h2>
             <p className="text-gray-600 text-sm mb-3">We use your information to:</p>
             <ul className="list-disc list-inside text-gray-600 text-sm space-y-1.5 ml-1">
-              <li>Provide and maintain the Smashing Wallets service</li>
+              <li>Provide and maintain the Phoenix Yard Sales service</li>
               <li>Allow you to create and manage event listings</li>
               <li>Display events on the map for other users to discover</li>
               <li>Send transactional emails (password resets, account updates, important notifications)</li>
@@ -86,7 +86,7 @@ export default function PrivacyPolicyPage() {
             <div className="space-y-6">
               <div>
                 <h3 className="text-base font-semibold text-navy mb-2">What We Share Publicly</h3>
-                <p className="text-gray-600 text-sm mb-2">When you create an event listing, the following information may be visible to other Smashing Wallets users:</p>
+                <p className="text-gray-600 text-sm mb-2">When you create an event listing, the following information may be visible to other Phoenix Yard Sales users:</p>
                 <ul className="list-disc list-inside text-gray-600 text-sm space-y-1.5 ml-1">
                   <li>Event details (title, description, date, time, location)</li>
                   <li>Contact information only if you toggle it to &ldquo;Visible&rdquo; when creating a listing</li>
@@ -105,7 +105,7 @@ export default function PrivacyPolicyPage() {
 
               <div>
                 <h3 className="text-base font-semibold text-navy mb-2">Service Providers</h3>
-                <p className="text-gray-600 text-sm mb-2">We use trusted third-party services to operate Smashing Wallets:</p>
+                <p className="text-gray-600 text-sm mb-2">We use trusted third-party services to operate Phoenix Yard Sales:</p>
                 <ul className="list-disc list-inside text-gray-600 text-sm space-y-1.5 ml-1">
                   <li><span className="font-medium text-navy">Appwrite</span> &mdash; Secure cloud database and authentication</li>
                   <li><span className="font-medium text-navy">Google Maps</span> &mdash; Map display and address validation</li>
@@ -245,7 +245,7 @@ export default function PrivacyPolicyPage() {
           <div>
             <h2 className="text-xl font-semibold text-navy mb-3">Children&apos;s Privacy</h2>
             <p className="text-gray-600 leading-relaxed text-sm">
-              Smashing Wallets is intended for users who are 18 years of age or older. We do not knowingly collect personal information from anyone under 18. If you believe we have collected data from someone under 18, please contact us immediately and we will promptly delete that information.
+              Phoenix Yard Sales is intended for users who are 18 years of age or older. We do not knowingly collect personal information from anyone under 18. If you believe we have collected data from someone under 18, please contact us immediately and we will promptly delete that information.
             </p>
           </div>
 
@@ -253,7 +253,7 @@ export default function PrivacyPolicyPage() {
           <div>
             <h2 className="text-xl font-semibold text-navy mb-3">Changes to This Policy</h2>
             <p className="text-gray-600 leading-relaxed text-sm">
-              We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy in the app and updating the &ldquo;Last Updated&rdquo; date. Continued use of Smashing Wallets after changes constitutes acceptance of the updated policy.
+              We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy in the app and updating the &ldquo;Last Updated&rdquo; date. Continued use of Phoenix Yard Sales after changes constitutes acceptance of the updated policy.
             </p>
           </div>
 
@@ -264,7 +264,7 @@ export default function PrivacyPolicyPage() {
               If you have questions about this privacy policy or your data, please contact us:
             </p>
             <a
-              href="mailto:support@smashingwallets.com?subject=Smashing%20Wallets%20Privacy%20Policy%20Question"
+              href="mailto:support@smashingwallets.com?subject=Phoenix%20Yard%20Sales%20Privacy%20Policy%20Question"
               className="flex items-center gap-4 bg-background rounded-xl border border-gray-200 p-5 hover:shadow-md transition-shadow group"
             >
               <div className="w-11 h-11 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
@@ -284,7 +284,8 @@ export default function PrivacyPolicyPage() {
 
           {/* Footer */}
           <footer className="pt-8 border-t border-gray-200 text-center">
-            <p className="text-sm text-gray-400">&copy; 2025&ndash;2026 Smashing Wallets. All rights reserved.</p>
+            <p className="text-sm text-gray-400">&copy; 2025&ndash;2026 Smashing Wallets LLC. All rights reserved.</p>
+            <p className="text-xs text-gray-400 mt-1">Phoenix Yard Sales is a product of Smashing Wallets LLC</p>
           </footer>
         </div>
       </section>

@@ -53,7 +53,7 @@ const faqs = [
   {
     question: 'Is the app free to use?',
     answer:
-      'Yes! Smashing Wallets is completely free to use. You can browse events, create listings, and save events at no cost.',
+      'Yes! Phoenix Yard Sales is completely free to use. You can browse events, create listings, and save events at no cost.',
   },
 ];
 
@@ -101,14 +101,14 @@ export default function HelpSupportPage() {
         <Link href="/">
           <Image
             src="/logo.png"
-            alt="Smashing Wallets Logo"
+            alt="Phoenix Yard Sales Logo"
             width={100}
             height={100}
             className="mx-auto mb-6"
           />
         </Link>
         <h1 className="text-3xl sm:text-4xl font-bold text-navy">Help &amp; Support</h1>
-        <p className="text-gray-500 mt-2">We&apos;re here to help you get the most out of Smashing Wallets.</p>
+        <p className="text-gray-500 mt-2">We&apos;re here to help you get the most out of Phoenix Yard Sales.</p>
       </section>
 
       <div className="max-w-2xl mx-auto px-4 sm:px-6 pb-16 space-y-10">
@@ -119,7 +119,7 @@ export default function HelpSupportPage() {
             Have a question or running into an issue? Reach out and we&apos;ll get back to you as soon as we can.
           </p>
           <a
-            href="mailto:support@smashingwallets.com?subject=Smashing%20Wallets%20Support%20Request"
+            href="mailto:support@smashingwallets.com?subject=Phoenix%20Yard%20Sales%20Support%20Request"
             className="flex items-center gap-4 bg-white rounded-xl border border-gray-200 p-5 hover:shadow-md transition-shadow group"
           >
             <div className="w-11 h-11 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
@@ -174,7 +174,7 @@ export default function HelpSupportPage() {
 
         {/* Footer */}
         <footer className="text-center pt-8 border-t border-gray-200">
-          <p className="text-sm font-semibold text-navy">Smashing Wallets</p>
+          <p className="text-sm font-semibold text-navy">Phoenix Yard Sales</p>
           <p className="text-xs text-gray-400 mt-1">Version 1.0.0</p>
         </footer>
       </div>

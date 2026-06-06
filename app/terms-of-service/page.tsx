@@ -9,7 +9,7 @@ export default function TermsOfServicePage() {
         <Link href="/">
           <Image
             src="/logo.png"
-            alt="Smashing Wallets Logo"
+            alt="Phoenix Yard Sales Logo"
             width={100}
             height={100}
             className="mx-auto mb-6"
@@ -25,7 +25,7 @@ export default function TermsOfServicePage() {
           <div>
             <h2 className="text-xl font-semibold text-navy mb-3">1. Acceptance of Terms</h2>
             <p className="text-gray-600 leading-relaxed text-sm">
-              By downloading, installing, or using Smashing Wallets (&ldquo;the App&rdquo;), you agree to be bound by these Terms of Service (&ldquo;Terms&rdquo;). If you do not agree to these Terms, do not use the App.
+              By downloading, installing, or using Phoenix Yard Sales (&ldquo;the App&rdquo;), you agree to be bound by these Terms of Service (&ldquo;Terms&rdquo;). If you do not agree to these Terms, do not use the App.
             </p>
           </div>
 
@@ -33,7 +33,7 @@ export default function TermsOfServicePage() {
           <div>
             <h2 className="text-xl font-semibold text-navy mb-3">2. Description of Service</h2>
             <p className="text-gray-600 leading-relaxed text-sm">
-              Smashing Wallets is a mobile application that allows users to discover and post local events such as yard sales, garage sales, estate sales, farmers markets, and other community events. The App provides a platform for users to share event information; we do not organize, host, or guarantee any events listed.
+              Phoenix Yard Sales is a mobile application that allows users to discover and post local events such as yard sales, garage sales, estate sales, farmers markets, and other community events. The App provides a platform for users to share event information; we do not organize, host, or guarantee any events listed.
             </p>
           </div>
 
@@ -157,7 +157,7 @@ export default function TermsOfServicePage() {
               If you have questions about these Terms, please contact us:
             </p>
             <a
-              href="mailto:support@smashingwallets.com?subject=Smashing%20Wallets%20Terms%20of%20Service%20Question"
+              href="mailto:support@smashingwallets.com?subject=Phoenix%20Yard%20Sales%20Terms%20of%20Service%20Question"
               className="flex items-center gap-4 bg-background rounded-xl border border-gray-200 p-5 hover:shadow-md transition-shadow group"
             >
               <div className="w-11 h-11 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
@@ -177,7 +177,8 @@ export default function TermsOfServicePage() {
 
           {/* Footer */}
           <footer className="pt-8 border-t border-gray-200 text-center">
-            <p className="text-sm text-gray-400">&copy; 2025&ndash;2026 Smashing Wallets. All rights reserved.</p>
+            <p className="text-sm text-gray-400">&copy; 2025&ndash;2026 Smashing Wallets LLC. All rights reserved.</p>
+            <p className="text-xs text-gray-400 mt-1">Phoenix Yard Sales is a product of Smashing Wallets LLC</p>
           </footer>
         </div>
       </section>
